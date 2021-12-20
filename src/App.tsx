@@ -1,10 +1,21 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
+import NavBar from './components/NavBar/NavBar';
+import LandingPage from './components/LandingPage/LandingPage';
+import FirstTimeline from './components/FirstTimeline/FirstTimeline';
 
 const App = () => (
-  <Container>
-    <h1 style={{ textAlign: 'center' }}>My Webpage!</h1>
-    <h2>This is a new header</h2>
+  <Container
+    style={{
+      padding: 0,
+      margin: 0,
+      width: '100vw',
+      maxWidth: '100%',
+    }}
+  >
+    <LandingPage />
+    <FirstTimeline />
+    <NavBar />
   </Container>
 );
 
