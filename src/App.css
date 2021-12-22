@@ -32,6 +32,10 @@
   color: var(--my-neon);
 }
 
+.row {
+  padding-right: 0;
+}
+
 path {
   fill: var(--my-neon);
 }
@@ -116,6 +120,12 @@ path {
 
 .row {
   max-width: 100vw;
+}
+
+@media only screen and (min-width: 750px) {
+  .main-button {
+    padding: 0.5em 1em !important;
+  }
 }
 
 @media only screen and (max-width: 750px) {
