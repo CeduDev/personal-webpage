@@ -1,4 +1,4 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "https://cedric-neergaard.dev/"
 languageCode: "en-us"
 title: "Cedric Neergaard"
 theme: hugo-profile
@@ -356,7 +356,7 @@ params:
     #   count: 3
     #   title: Recent Posts
     #   enable: true
-    #   disableFeaturedImage: false
+    #   disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/CeduDev
       linkedin: https://www.linkedin.com/in/cedric-neergaard/?trk=public-profile-join-page
