@@ -1,7 +1,6 @@
 baseURL: "https://cedric-neergaard.dev/"
 languageCode: "en-us"
 title: "Cedric Neergaard"
-theme: hugo-profile
 
 outputs:
   home:

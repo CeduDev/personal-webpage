@@ -2,7 +2,7 @@
 
 The webpage is built with:
 
-- Hugo (theme: [hugo-profile](https://github.com/gurusabarish/hugo-profile))
+- Hugo (theme inspiration from: [hugo-profile](https://github.com/gurusabarish/hugo-profile))
 - Firebase for hosting
 
 The website can be found at [cedric-neergaard.dev](https://cedric-neergaard.dev/).
