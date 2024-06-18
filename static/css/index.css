@@ -102,6 +102,7 @@ header .navbar.animate {
     opacity: 0.5;
 }
 
+
 #hero p {
     margin: 20px 0px 0px;
     max-width: 640px;
@@ -175,7 +176,7 @@ header .navbar.animate {
 #hero .hero-content > a {
     display: inline-block;
     text-decoration: none;
-    color: var(--primary-color) !important;
+    color: var(--text-link-color) !important;
 }
 
 #hero .hero-content > a::after {
@@ -243,7 +244,7 @@ header .navbar.animate {
 #about a {
     display: inline-block;
     text-decoration: none;
-    color: var(--primary-color) !important;
+    color: var(--text-link-color) !important;
 }
 
 #about a::after {
@@ -322,7 +323,7 @@ header .navbar.animate {
     opacity: 0.9;
     display: inline-block;
     text-decoration: none;
-    color: var(--primary-color) !important;
+    color: var(--text-link-color) !important;
 }
 
 #experience a::after {
@@ -432,7 +433,7 @@ header .navbar.animate {
 }
 
 #education .card .card-body .education-content a {
-    color: var(--primary-color) !important;
+    color: var(--text-link-color) !important;
     text-decoration: none;
     opacity: 0.9;
 }
@@ -440,7 +441,7 @@ header .navbar.animate {
 #education .card .card-body > a h6 {
     display: inline-block;
     text-decoration: none;
-    color: var(--primary-color) !important;
+    color: var(--text-link-color) !important;
 }
 
 #education .card .card-body > a h6::after {

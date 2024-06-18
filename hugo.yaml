@@ -111,6 +111,7 @@ params:
     stickyNavBar:
       enable : true
       showOnScrollUp : true
+    enableSeparator: true
     menus:
       disableAbout: false
       disableExperience: false
@@ -348,6 +349,7 @@ params:
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
     #   emailCaption: "Enter your email address"
     #   messageCaption: "Enter your message here"
+    #   messageRows: 5
 
   footer:
     # recentPosts:
@@ -367,11 +369,14 @@ params:
 
   # Single pages like blog and post
   singlePages:
+    socialShare: true
     readTime:
       enable: true
       content: "min read"
     scrollprogress:
       enable: true
+    tags:
+      openInNewTab: true
 
   # For translations
   terms:
