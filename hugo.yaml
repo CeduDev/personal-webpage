@@ -236,7 +236,7 @@ params:
         content: |-
           Deciding to follow my interest in technology at scale, I decided to enroll in the Big Data and Large-scale Computing major. After finishing my first year, I have gotten experience in employing technologies such as CassandraDB, Apache Kafka, and Apache Nifi, to create platforms compatible with data sizes and velocities of terabytes a day. Additionally, I have gained experience in data mining and software architecture.
         
-          Currently I am waiting to go on my exchange to Tokyo University in Tokyo, Japan, which will start in October 2024 and end in April 2025. I will be joining Prof. Yoshiro Kawahara's laboratory to conduct research and experience the japanese culture.
+          Currently I am waiting to go on my exchange to Tokyo University in Tokyo, Japan, which will start in October 2024 and end in April 2025. I will be joining Prof. Yoshiro Kawahara's laboratory to conduct research and experience the Japanese culture.
       - title: "Bachelor of Science With Honours, Computer Science"
         school:
           name: "Aalto University, Finland"
@@ -248,8 +248,8 @@ params:
 
           Extracurricular Activities
             - Tutor at Aalto University 2020-2021 and 2021-2022
-            - Head of the cultural committee 2020 at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
-            - Täffä Lunch's Marketing Committe Member
+            - Head of the Cultural Committee 2020 at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
+            - Täffä Lunch's Marketing Committee Member
             - Annual Celebration Committee Member at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
             - TF Recruitment Committee Member at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
             - Freshmen Committee Member at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
@@ -302,7 +302,7 @@ params:
           - icon: fab fa-github
             url: https://github.com/CeduDev/DnD_Bot
 
-      - title: Junction 2023
+      - title: 2nd Place @ Junction 2023
         content: |-
           At my first hackathon Junction 2023, our team manages to solve the intricate issue of utilizing generative Artificial Intelligence in a sustainable manner to collect and summarize real time insight to help drive business decisions. 
 
