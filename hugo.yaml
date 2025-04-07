@@ -24,33 +24,28 @@ markup:
 
 # Menus:
 #   main:
-#     - identifier: blog
-#       name: Blog
-#       title: Blog posts
+#     - identifier: CV
+#       name: CV
+#       title: CV
 #       url: /blogs
 #       weight: 1
-#     - identifier: gallery
-#       name: Gallery
-#       title: Blog posts
-#       url: /gallery
-#       weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+#Dropdown menu
+# - identifier: dropdown
+#   title: Example dropdown menu
+#   name: Dropdown
+#   weight: 3
+# - identifier: dropdown1
+#   title: example dropdown 1
+#   name: example 1
+#   url: /#
+#   parent: dropdown
+#   weight: 1
+# - identifier: dropdown2
+#   title: example dropdown 2
+#   name: example 2
+#   url: /#
+#   parent: dropdown
+#   weight: 2
 
 params:
   title: "Cedric Neergaard"
@@ -67,7 +62,7 @@ params:
   # This requires your images to be uploaded + hosted on Cloudinary
   # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
   # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
-  
+
   # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
   mathjax: false
 
@@ -75,8 +70,8 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
-    # defaultTheme: "light" # dark
+    disableThemeToggle: false
+    defaultTheme: "dark" # "light" or "dark"
 
   font:
     fontSize: 1rem # default: 1rem
@@ -86,12 +81,12 @@ params:
 
   # color preference
   color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+    #   textColor:
+    #   secondaryTextColor:
+    #   backgroundColor:
+    #   secondaryBackgroundColor:
+    #   primaryColor:
+    #   secondaryColor:
 
     darkmode:
       textLinkColor: "#007bff"
@@ -106,13 +101,13 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    showBrandLogo: true # Show brand logo in nav bar | default is true
     brandName: "Cedric Neergaard" # Brand name for the brand | default is the title variable
     disableSearch: true
-    # searchPlaceholder: "Search"
+    searchPlaceholder: "Search"
     stickyNavBar:
-      enable : true
-      showOnScrollUp : true
+      enable: true
+      showOnScrollUp: true
     enableSeparator: true
     menus:
       disableAbout: false
@@ -132,7 +127,7 @@ params:
     image: /me_normal.jpeg
     bottomImage:
       enable: true
-    # roundImage: true # Make hero image circular | default false
+    roundImage: false # Make hero image circular | default false
     button:
       enable: false
       name: "Resume"
@@ -143,6 +138,8 @@ params:
       fontAwesomeIcons:
         - icon: fab fa-github
           url: https://github.com/CeduDev
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/cedric-neergaard/?trk=public-profile-join-page
         - icon: fa fa-envelope
           url: "mailto:cedric.neergaard@gmail.com"
 
@@ -152,11 +149,11 @@ params:
     title: "About Me"
     image: /me_zoomed_in.jpeg
     content: |-
-      I am a software engineer with a passion for solving complex issues with technology. I have a background in computer science, and I have a strong interest in technology at large scale. I am currently working as a software engineer consultant at [CGI](https://www.cgi.com/en) in Helsinki, FI.
+      I am a software engineer with a passion for solving complex issues with technology. I have a background in computer science, and I have a strong interest in technology at large scale. I am currently working as a software engineer consultant at <a href="https://www.cgi.com/en" target="_blank">CGI</a> in Helsinki, FI.
 
       My current work project involves modernizing legacy tech-systems using generative AI.
 
-      My current personal project involves writing [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in a plethora of languages, including Rust, Zig, and Python.
+      My current personal project involves writing <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in a plethora of languages, including Rust, Zig, and Python.
 
       Alongside my passion for tech, I enjoy running, playing video games, and cooking with friends. Additionally, I speak English, Finnish, Norwegian, Swedish, and Japanese.
     skills:
@@ -173,26 +170,22 @@ params:
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
     items:
       - job: "Software Engineer Consultant"
         company: "CGI"
         companyUrl: "https://www.cgi.com/en"
         date: "May 2022 - present"
         content: |
-          I am currently working as a software engineer consultant at [CGI](https://www.cgi.com/en) in Helsinki, FI. I have been part of 5 projects, ranging from PERN-stack Web Applications to creating a chatbot from scratch akin to ChatGPT based on the GPT-3 model offered by OpenAI. Additionally, I've developed and maintained infrastructures in the cloud - AWS and Azure - and conducting various DevOps tasks including implementing CI/CD pipelines.
+          I am currently working as a software engineer consultant at <a href="https://www.cgi.com/en" target="_blank">CGI</a> in Helsinki, FI. I have been part of 5 projects, ranging from PERN-stack Web Applications to creating a chatbot from scratch akin to ChatGPT based on the GPT-3 model offered by OpenAI. Additionally, I've developed and maintained infrastructures in the cloud - AWS and Azure - and conducting various DevOps tasks including implementing CI/CD pipelines.
 
           My current project involves modernizing legacy tech-systems using generative AI.
       - job: "Software Developer"
         company: "Sulake"
         companyUrl: "https://www.sulake.com/"
         date: "Sep 2021 - April 2022"
-        # info:
-        #   enable: true
-        #   content: I worked as a software developer for more than one year in Amazon.
         content: |
           For the course CS-C2130 - Software Project at Aalto University, I was been employed to a team of 8 students (7 developers, 1 Scrum Master) to create a web-based tool for internal use for Sulake's Art Team based in London.
-          
+
           Bringing various skill sets, the team met the requirements and specifications of our Product Owner and we received positive feedback.
 
       - job: "Software Developer"
@@ -226,7 +219,6 @@ params:
   # Education
   education:
     enable: true
-    # title: "Custom Name"
     index: false
     items:
       - title: "Master of Science, Computer Science, Major in Big Data and Large-scale Computing"
@@ -237,7 +229,7 @@ params:
         GPA: "Currently 4.19 out of 5.0"
         content: |-
           Deciding to follow my interest in technology at scale, I decided to enroll in the Big Data and Large-scale Computing major. After finishing my first year, I have gotten experience in employing technologies such as CassandraDB, Apache Kafka, and Apache Nifi, to create platforms compatible with data sizes and velocities of terabytes a day. Additionally, I have gained experience in data mining and software architecture.
-        
+
           Currently I am waiting to go on my exchange to Tokyo University in Tokyo, Japan, which will start in October 2024 and end in April 2025. I will be joining Prof. Yoshiro Kawahara's laboratory to conduct research and experience the Japanese culture.
       - title: "Research Exchange in Japan"
         school:
@@ -252,7 +244,7 @@ params:
           The research title and abstract were the following:
 
           **Title**: A Case Study on Determinants of Thermal Comfort: Insights into Air Conditioning and Environmental Factors
-          
+
           **Abstract**: To tackle social challenges and create new business opportunities related to the value of air, this study evaluates thermal comfort during the summer at a university residence, focusing on the effectiveness of air conditioning systems. 
           A survey with 27 participants was conducted, and the data were analyzed using various data mining techniques, such as correlation analysis, tabulations, and clustering. 
           The analysis indicates a correlation between thermal comfort and variables such as issues with humidity and odor, loss of focus, participant's origin, and window direction. 
@@ -268,15 +260,11 @@ params:
 
           Extracurricular Activities
             - Tutor at Aalto University 2020-2021 and 2021-2022
-            - Head of the Cultural Committee 2020 at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
+            - Head of the Cultural Committee 2020 at <a href="https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen" target="_blank">Teknologföreningen</a>
             - Täffä Lunch's Marketing Committee Member
-            - Annual Celebration Committee Member at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
-            - TF Recruitment Committee Member at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
-            - Freshmen Committee Member at [Teknologföreningen](https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen)
-        # featuredLink:
-        #   enable: true
-        #   name: "My academic record"
-        #   url: "https://example.com"
+            - Annual Celebration Committee Member at <a href="https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen" target="_blank">Teknologföreningen</a>
+            - TF Recruitment Committee Member at <a href="https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen" target="_blank">Teknologföreningen</a>
+            - Freshmen Committee Member at <a href="https://en.wikipedia.org/wiki/Teknologf%C3%B6reningen" target="_blank">Teknologföreningen</a>
       - title: "Officer School RUK"
         school:
           name: "Finnish Military"
@@ -300,9 +288,6 @@ params:
       - title: Conway's Game of Life in multiple languages
         content: Conway's Game of Life - written in multiple languages. The project is meant as a practice for myself to write Conway's Game of Life in different languages, to become familiar with new and old languages.
         image: /conway_logo.png
-        # featured:
-        #   name: Demo
-        #   link: https://hugo-profile.netlify.app
         badges:
           - "Rust"
           - "Zig"
@@ -342,7 +327,6 @@ params:
   # Achievements
   achievements:
     enable: true
-    # title: "Custom Name"
     items:
       - title: AWS Cloud Practitioner Certificate
         content: I completed the AWS Cloud Practitioner exam, and was awarded with the respective certificate
@@ -360,24 +344,11 @@ params:
   #Contact
   contact:
     enable: true
-    # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I'll try my best to get back to you!
     btnName: Let's talk!
     btnLink: mailto:cedric.neergaard@gmail.com
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
 
   footer:
-    # recentPosts:
-    #   path: "blogs"
-    #   count: 3
-    #   title: Recent Posts
-    #   enable: true
-    #   disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/CeduDev
       linkedin: https://www.linkedin.com/in/cedric-neergaard/?trk=public-profile-join-page
@@ -388,15 +359,15 @@ params:
     disableFeaturedImage: false
 
   # Single pages like blog and post
-  singlePages:
-    socialShare: true
-    readTime:
-      enable: true
-      content: "min read"
-    scrollprogress:
-      enable: true
-    tags:
-      openInNewTab: true
+  # singlePages:
+  #   socialShare: true
+  #   readTime:
+  #     enable: true
+  #     content: "min read"
+  #   scrollprogress:
+  #     enable: true
+  #   tags:
+  #     openInNewTab: true
 
   # For translations
   terms:
