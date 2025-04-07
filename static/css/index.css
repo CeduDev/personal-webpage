@@ -567,8 +567,8 @@ header .navbar.animate {
 }
 
 #contact a:hover::after,
-#projects .card .card-body a:focus::after,
-#projects .card .card-body a:active::after {
+#contact a:focus::after,
+#contact a:active::after {
     width: 100%;
 }
 
