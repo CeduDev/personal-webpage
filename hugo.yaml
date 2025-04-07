@@ -129,9 +129,9 @@ params:
       enable: true
     roundImage: false # Make hero image circular | default false
     button:
-      enable: false
+      enable: true
       name: "Resume"
-      url: "#"
+      url: "/CV.pdf"
       download: true
       newPage: false
     socialLinks:
