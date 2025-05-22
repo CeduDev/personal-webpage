@@ -297,6 +297,19 @@ params:
           - icon: fab fa-github
             url: https://github.com/CeduDev/conways-game-of-languages
 
+      - title: Build Your Own X
+        content: |-
+
+          I am completing the monthly free <a href="https://codecrafters.io/" target="_blank">Codecrafters</a> courses, where you get to build famous dev-tools - such as Git, Kafka, Docker etc. - from scratch! 
+
+          Currently, I am working on building my own Kafka from scratch using Rust.
+        image: /codecrafters.png
+        badges:
+          - "Rust"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/CeduDev/codecrafters
+
       - title: Discord Bot for a personal Dungeons and Dragons campaign
         content: A simple Discord Bot for a personal Dungeons and Dragons campaign, which supports commands with an interactive menu for completing actions related to Dungeons and Dragons.
         image: /dnd_bot.jpg
