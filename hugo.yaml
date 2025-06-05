@@ -316,7 +316,20 @@ params:
           - "Discord API"
         links:
           - icon: fab fa-github
-            url: https://github.com/CeduDev/DnD_Bot
+            url: https://github.com/CeduDev/
+
+      - title: Dotfiles config
+        content: |-
+          Repository for my dotfiles used across my three environments: home desktop, work laptop, and personal laptop. Since each environment have different requirements (terminal behaviour, packages, plugins etc.), they require thei own .zshrc-file, found in it's respective directory. 
+
+          There's an install script that installs the environment from scratch, given that the prequisites are completed. Additionally, common config files across my environments can be found (Git, Starship, and Tmux etc.), which are handled by the installer.
+        image: /dotfiles.png
+        badges:
+          - "Zsh"
+          - "Shell"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/CeduDev/dotfiles
 
       - title: 2nd Place @ Junction 2023
         content: |-
