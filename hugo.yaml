@@ -300,7 +300,9 @@ params:
 
           I am completing the monthly free <a href="https://codecrafters.io/" target="_blank">Codecrafters</a> courses, where you get to build famous dev-tools - such as Git, Kafka, Docker etc. - from scratch! 
 
-          Currently, I am working on building my own Kafka from scratch using Rust.
+          Last month, I worked on building my own Kafka from scratch using Rust.
+
+          Currently, I am building my own shell from scratch using Go. Additionally, this is one of the first times I am using Go - as I feel like this is good timing for it.
         image: /codecrafters.png
         badges:
           - "Rust"
