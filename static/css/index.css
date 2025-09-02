@@ -194,8 +194,6 @@ header .navbar.animate {
     width: 100%;
 }
 
-
-
 /* about me */
 #about h3 {
     color: var(--text-secondary-color) !important;
@@ -220,6 +218,14 @@ header .navbar.animate {
     margin: 20px 0px 0px;
     overflow: hidden;
     list-style: none;
+}
+
+@media screen and (min-width: 1200px) {
+    #about ul { grid-template-columns: repeat(4, minmax(140px, 200px)) !important;  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    #about ul { grid-template-columns: repeat(3, minmax(140px, 200px)) !important; }
 }
 
 #about ul li {

@@ -149,16 +149,14 @@ params:
     title: "About Me"
     image: /me_zoomed_in.jpeg
     content: |-
-      I am a software engineer with a passion for solving complex issues with technology. I am almost done with my masters in Big Data and Large-scale Computing, and I have a strong interest in technology at large scale. I am currently working as a software engineer consultant at <a href="https://www.cgi.com/en" target="_blank">CGI</a> in Helsinki, FI.
+      I am a software engineer with a passion for solving complex issues with technology. I am almost done with my masters in Big Data and Large-scale Computing, and I have a strong interest in technology at large scale. I am currently working as a software engineer consultant at <a href="https://www.cgi.com/en" target="_blank">CGI</a> in Helsinki, Finland.
 
-      My current work project involves creates a tool for aiding in modernizing legacy tech-systems using generative AI.
-
-      My current personal project involves writing <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in a plethora of languages, including Rust, Zig, and Python. Additionally, I am completing the <a href="https://codecrafters.io/" target="_blank">Codecrafters</a> courses where I get to build famous dev-tools - such as Git, Kafka, Docker etc. - from scratch!
+      As I strive to deepen my knowledge in my field, I enjoy working on personal projects outside work and studies. My recent personal projects involves writing <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">Conway's Game of Life</a> in a plethora of languages, including Rust, Zig, and Python. Additionally, I am completing the <a href="https://codecrafters.io/" target="_blank">Codecrafters</a> courses where I get to build famous dev-tools - such as Git, Kafka, Docker etc. - from scratch!
 
       Alongside my passion for tech, I enjoy running, playing video games, and cooking with friends. Additionally, I speak English, Finnish, Norwegian, Swedish, and Japanese.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Here are a few technologies and areas I've been working with recently:"
       items:
         - "PERN-stack"
         - "Azure Cloud"
@@ -166,6 +164,8 @@ params:
         - "Apache Kafka"
         - "Zig"
         - "Python"
+        - "Machine Learning"
+        - "Game Programming"
 
   # Experience
   experience:
@@ -176,9 +176,9 @@ params:
         companyUrl: "https://www.cgi.com/en"
         date: "May 2022 - present"
         content: |
-          I am currently working as a software engineer consultant at <a href="https://www.cgi.com/en" target="_blank">CGI</a> in Helsinki, FI. I have been part of 5 projects, ranging from PERN-stack Web Applications to creating a chatbot from scratch akin to ChatGPT based on the GPT-3 model offered by OpenAI. Additionally, I've developed and maintained infrastructures in the cloud - AWS and Azure - and conducting various DevOps tasks including implementing CI/CD pipelines.
+          I am currently working as a software engineer consultant at <a href="https://www.cgi.com/en" target="_blank">CGI</a> in Helsinki, FI. I have been part of multiple projects, ranging from PERN-stack Web Applications to creating a chatbot from scratch akin to ChatGPT based on the GPT-3 model offered by OpenAI. Additionally, I've developed and maintained infrastructures in the cloud - AWS and Azure - and conducting various DevOps tasks including implementing CI/CD pipelines. My last work project involved creates a tool for aiding in modernizing legacy tech-systems using generative AI.
 
-          My current work project involves creates a tool for aiding in modernizing legacy tech-systems using generative AI.
+          Outside of my technical work, I have organized various recruitment events as a CGI Ambassador targeted to students, where I have been the main event driver a few times. Additionally, I have partook in various marketing activities; be it via photoshoots or short for content creation.
       - job: "Software Developer"
         company: "Sulake"
         companyUrl: "https://www.sulake.com/"
